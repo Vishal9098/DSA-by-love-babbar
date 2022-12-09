@@ -8,19 +8,14 @@ int main(){
     cout<<"Enter the value of n = ";
     cin>>n;
 
-    for (int i = 2; i < n; i++)
-    {
-        /* code */
-        if (n%i == 0)
-        {
-            /* code */
+    for (int i = 2; i < n; i++){
+        if (n%i == 0){
             f = 0;
             break;
         }
     }
     if (f==0)
     {
-        /* code */
         cout<<"Not a prime number";
     }
     else{

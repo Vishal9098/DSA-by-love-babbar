@@ -2,7 +2,9 @@
 using namespace std;
 
  int main(){
-    
+     int a = 8;
+     a=30>>2;
+     cout<<a; 
  }
 
 /*  {  unsigned short a = -65535;
